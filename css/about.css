@@ -1,0 +1,57 @@
+/* About Us Section */
+.about-us {
+    padding: 80px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.container .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container .content {
+    max-width: 600px;
+    margin-left: 40px;
+}
+
+.container .content h2 {
+    color: #140393;
+    font-size: 24px;
+}
+
+.container .content h3 {
+    font-size: 36px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.container .content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #197ff3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container .content .btn:hover {
+    background-color: #81828b;
+}
